@@ -94,7 +94,25 @@ def aniket(abs):
     else:
         return abs
 
-new_list = sorted(b, key=aniket)
-print("old list", b)
-print("normal",sorted(b))
-print("New List", new_list)
+# new_list = sorted(b, key=aniket)
+# print("old list", b)
+# print("normal",sorted(b))
+# print("New List", new_list)
+
+# print("before clear",b)
+# b.clear()
+# print("after clear",b)
+
+z = [1,2,3]
+# z.append(4)
+# z.append([4,5])
+# z.extend([4,5])
+# print(z)
+
+
+s = [1,2,3]
+# t = s
+t = s.copy()
+t.append(4)
+print("s", s)
+print("t", t)
