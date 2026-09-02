@@ -112,7 +112,50 @@ z = [1,2,3]
 
 s = [1,2,3]
 # t = s
-t = s.copy()
-t.append(4)
-print("s", s)
-print("t", t)
+# t = s.copy()
+# t.append(4)
+# print("s", s)
+# print("t", t)
+
+v = [0.2, 3, 1]
+maximum = max(v)
+minimum = min(v)
+sum_of_numbers = sum(v, start=5)
+# print("max",maximum)
+# print("min",minimum)
+# print("sum",sum_of_numbers)
+
+
+# start = 0
+# start = start + v[0] = 0.2
+# start = start + v[1] = 0.2 + 3 = 3.2
+# start = start + v[2] = 3.2 + 1 = 4.2
+
+# Take multiple numbers as single input and add all numbers at a time
+
+# map(int, list_name)
+# words = input("Enter your numbers: ").split()
+# numbers = map(float, words)
+# print(sum(numbers))
+
+shivansh = [1,2,3,4,5,6,7,8,9,10]
+
+# list_name[start:end:step] => 0:len(list):1
+
+# print(shivansh[2:]) # without end value
+# print(shivansh[:])  # without start and end value
+# print(shivansh[:3])  # without start value
+# print(shivansh[2:3])  # with start and end values
+
+#REVERSE a list of random numbers placed randomly
+#options
+# print(shivansh[::-1])
+# print(shivansh.sort(reverse=True))
+#Both A and B are correct
+# none of these are correct
+
+# print(shivansh[::])
+
+nd_list = [1,2,3,[ 50 ,51, [101, 105] ], [500], 4 ]
+
+print(len(nd_list))
