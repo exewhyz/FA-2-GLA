@@ -158,4 +158,8 @@ shivansh = [1,2,3,4,5,6,7,8,9,10]
 
 nd_list = [1,2,3,[ 50 ,51, [101, 105] ], [500], 4 ]
 
-print(len(nd_list))
+# print(len(nd_list))
+
+# del nd_list[3][2][0]
+
+# deleted_value = nd_list[3][2].pop(0)
