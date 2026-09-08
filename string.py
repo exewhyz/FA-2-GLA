@@ -58,17 +58,31 @@ String Methods => string_name.method_name()
 """
 
 p = "PYTHON"
-print("LOWERCASE:", p.lower())
+# print("LOWERCASE:", p.lower())
 
 q = "python pRogramming"
-print("UPPERCASE:", q.upper())
-print("CAPITALIZE:", q.capitalize())
+# print("UPPERCASE:", q.upper())
+# print("CAPITALIZE:", q.capitalize())
 
 greet = "    !!!!11111heLlo, HOW aRe yOu?####"
-print("TITLE:", greet.title())
-print("SWAPCASE:", greet.swapcase())
-print("STRIP:", greet.strip(" 1!#"))
+# print("TITLE:", greet.title())
+# print("SWAPCASE:", greet.swapcase())
+# print("STRIP:", greet.strip(" 1!#"))
 # print("LEFT STRIP:", greet.lstrip(), end="@\n")
 # print("RIGHT STRIP:", greet.rstrip(),end="@\n")
 
 
+# replace(old,new) -> str
+
+o = "I like Java"
+# print("Replaced:",o.replace("Java", "Python"))
+
+# find(value,start=0,end=len(str)) -> int
+
+# -1 => if value is not present in range
+# 0 to len(str)-1 => value is present in range
+
+# print(o.find("like"))
+
+g = "hello hello hello bye"
+print("COUNT:", g.count("hello",6))
