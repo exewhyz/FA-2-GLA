@@ -85,4 +85,59 @@ o = "I like Java"
 # print(o.find("like"))
 
 g = "hello hello hello bye"
-print("COUNT:", g.count("hello",6))
+# print("COUNT:", g.count("hello",6))
+
+#startswith(value,start=0,end=len(str)) -> bool
+#endswith(value,start=0,end=len(str)) -> bool
+# value can be str or (str,str,str,....)
+
+msg = "hello world"
+
+# print(msg.startswith("l", 2,8))
+# print(msg.endswith(("hello", "world"),2,8))
+
+
+# split(sep=None,maxsplit=-1) -> list[str]
+message = "a-b-c-d-e"
+
+# print(message.split("-",maxsplit=3))
+
+
+email = "test@gmail.com" # username and domain separated by '@'
+
+username, domain = email.split("@")
+
+# print(username)
+# print(domain)
+
+# str -> list  => split()
+# list -> str => join()
+
+full_name = ["Aniket", "Raj"]
+
+# print("@".join(full_name))
+
+
+# e = ["ankit", "gla", ".in"]
+# username = e[0]
+# domain = e[1:]
+# full_dom = "".join(domain)
+# full_email = [username,full_dom]
+# # email_add = username+"@"+domain
+# email_add = "@".join(full_email)
+# print(email_add)
+
+
+# str.isdigit() -> bool => "56257"
+# str.isalpha() -> bool => "fsyajgdk"
+# str.isalnum() -> bool => "vfd638dftshy"
+# str.isspace() -> bool => "      "
+
+g = "56257"
+print(g.isdigit())
+h="fsyajgdk"
+print(g.isalpha())
+h="vfd638dftshy"
+print(g.isalnum())
+h="      "
+print(g.isspace())
