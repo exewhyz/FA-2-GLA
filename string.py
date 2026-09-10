@@ -134,10 +134,77 @@ full_name = ["Aniket", "Raj"]
 # str.isspace() -> bool => "      "
 
 g = "56257"
-print(g.isdigit())
+# print(g.isdigit())
 h="fsyajgdk"
-print(g.isalpha())
+# print(g.isalpha())
 h="vfd638dftshy"
-print(g.isalnum())
+# print(g.isalnum())
 h="      "
-print(g.isspace())
+# print(g.isspace())
+
+# take username as input and check it should be at least 3 chars.
+
+# username = input("Enter username: ")
+
+# if len(username) >= 3:
+#     print("Username is valid.✅")
+# else:
+#     print("Provide at least 3 characters.❌")
+
+#string comaprision
+# print("1" == "2")
+
+#check the string is like email or not
+
+# email = input("enter your email: ")
+# #hello@gla.in
+
+# if "@" in email and "." in email:
+#     print("It is like an email")
+# else:
+#     print("It is not like an email")
+    
+# count the words of given string
+# para = input("Enter your paragraph: ")
+# words = para.split()
+# print("No. of words:",len(words))
+
+# count the number of vowels in given string as input
+
+sentence = "hello how are you"
+number_of_vowels = (
+    sentence.lower().count("a") +
+    sentence.lower().count("e") + 
+    sentence.lower().count("i") + 
+    sentence.lower().count("o") +
+    sentence.lower().count("u")
+)
+# 1 + 2 + 0 + 3 + 1
+# print(number_of_vowels)
+
+
+# name = "aNIkeT    "
+
+# # Hello Aniket
+# # greeting_msg = "Hello"+ " " + name
+# greeting_msg = f"Hello {name.strip().capitalize()}"
+
+# check if the string is palindrome or not
+
+# h = input("Enter your string:").strip().lower()
+
+# if h == h[::-1]:
+#     print("It is palindrome")
+# else:
+#     print("Not palindrome")
+
+i = "Hello how are you   ".strip()
+# "Hello how are you"
+# ["Hello", "how", "are", "you"]
+# "Hellohowareyou"
+list_of_words = i.split(" ")
+words_without_space = "".join(list_of_words)
+# print("og str:", i)
+# print("list:", list_of_words)
+# print("words without space:", words_without_space)
+print("count of alphabets:", len(words_without_space))
