@@ -158,8 +158,72 @@ for value_name in str/list/tuple_name:
 #     print(y[index])
 #     index = index ** 2
 
-y = [1,2,3,4,5,6]
-index = 5
-while index >= 0:
-    print(y[index])
-    index = index - 1
+# y = [1,2,3,4,5,6]
+# index = 5
+# while index >= 0:
+#     print(y[index])
+#     index = index - 1
+
+# b = 3
+# while b < 2:
+#     print(b)
+#     b += 1
+
+# break keyword => stops the execution of loop
+
+# for i in range(1,5):
+#     if i == 3:
+#         break
+#     print(i)
+
+# continue keyword => skips that execution
+
+# for i in range(1,5):
+#     if i % 2 == 0:
+#         print("skiping value",i)
+#         continue
+#     print(i)
+    
+# pass keyword => 
+
+# print("continue:")
+# for i in range(1,6):
+    
+#     if i == 4:
+#         continue
+#     print(i)
+# print("-"*20)
+# print("Pass:")  
+# for i in range(1,6):
+#     if i == 4:
+#         pass
+#     print(i)
+
+# find total after multiplying 1 to 100 numbers
+# find factorial
+
+# total = 1
+# number = int(input("Enter the number: "))
+# for num in range(1, number + 1):
+#     total = total * num
+# print(total)
+
+# Searching implementation
+
+# movies = ("Dhurandhar", "Spiderman", "It", "Nun", "Thor", "Titanic")
+
+# search_text = input("Enter movie name: ").strip().lower()
+
+# for mov in movies:
+#     if search_text in mov.lower():
+#         print("Movie Found:", mov)
+#         break
+# else:
+#     print(f"{search_text} not available")
+
+# Nested Loops
+
+for i in range(1,5):
+    for j in range(1,5):
+        print(i,j)
+    print("-" * 20)
