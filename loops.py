@@ -223,7 +223,64 @@ for value_name in str/list/tuple_name:
 
 # Nested Loops
 
-for i in range(1,5):
-    for j in range(1,5):
-        print(i,j)
-    print("-" * 20)
+# for i in range(1,5):
+#     for j in range(1,5):
+#         print(i,j)
+#     print("-" * 20)
+    
+
+# for i in range(1,5):
+#     for j in range(4,0,-1):
+#         print(i,j)
+#     print("-" * 20)
+
+# for i in range(1,6):
+#     print(i * "*")
+
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         if j == 1 or j == i:
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#         # print("*",end="")
+#     print("")
+
+
+# for i in range(1,6):
+#     print(str(i) * i)
+
+
+# for _ in range(5):
+#     for _ in range(5):
+#         print("*",end=" ")
+#     print()
+
+# vowels = "aeiou"
+
+# text = input("Enter your text: ").strip().lower()
+
+# count = 0
+
+# for ch in text:
+#     if ch in vowels.lower():
+#         count += 1
+
+# print(count)
+
+# count of digits in a string
+
+# total_digits = 0
+
+# txt = "hello12hello3"
+
+# for ch in txt:
+#     if ch.isdigit():
+#         total_digits += 1
+        
+# print(total_digits)
+
+
+# Count how many marks are greater than or equal to 75 using a loop and conditional statement.
+
+marks = [78, 65, 89, 92, 56, 71]
