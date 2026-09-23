@@ -284,3 +284,52 @@ for value_name in str/list/tuple_name:
 # Count how many marks are greater than or equal to 75 using a loop and conditional statement.
 
 marks = [78, 65, 89, 92, 56, 71]
+
+
+
+
+# check a number is prime or not
+
+# num = int(input("Enter a number: "))
+# for num in range(1,101):
+#     if num < 2:
+#         # print(num,"Not Prime")
+#         pass
+#     else:
+#         is_prime = True
+#         for v in range(2,num):
+#             if num % v == 0:
+#                 is_prime = False
+#         if is_prime:
+#             print(num)
+#         # else:
+#         #     print(num,"Not Prime")
+    
+    
+
+134
+
+# 1 ** 3 + 3 ** 3 + 4 ** 3 = 125
+
+# x = 153
+
+# total = 0
+
+# while x > 0:
+#     last_digit = x % 10
+#     total = total + last_digit ** 3
+#     x = x // 10
+# if total == x:
+#     print("Armstrong Number")
+# else:
+#     print("Not Armstrong Number")
+
+x = 153
+total = 0
+for ch in str(x):
+    total = total + int(ch) ** 3
+    
+if total == x:
+    print("Armstrong Number")
+else:
+    print("Not Armstrong Number")
