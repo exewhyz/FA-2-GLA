@@ -1,0 +1,2 @@
+def getusername():
+    print("Aniket")

@@ -46,4 +46,13 @@ types of module
 # import calculator
 # print("Running entry.py statements...")
 
-import calculator
+# import calculator 
+
+# from users import getuser
+# getuser.getusername()
+
+from users.getuser import getusername
+getusername()
+
+import users.getuser
+users.getuser.getusername()
