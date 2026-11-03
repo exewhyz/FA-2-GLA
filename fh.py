@@ -105,9 +105,45 @@ modes
 # seek(int)
 # tell() -> int
 
-with open("new.txt", "r+") as f:
-    print("before seek",f.tell())
-    f.seek(2)
-    print("after seek",f.tell())
-    print(f.truncate())
-    print("after truncate",f.tell())
+
+import csv
+
+# with open("student.csv","r") as file:
+    # print(list(csv.reader(file)))
+    # for line in file:
+    #     print(line.strip().split(","))
+
+# with open("emp.csv","a",newline="") as file:
+#     writer = csv.writer(file)
+#     writer.writerow(["emp_id", "emp_name", "emp_salary"])
+#     writer.writerow([1,"Akshat",800000])
+#     writer.writerows([
+#         [2, "Ayush", 600000],
+#         [3, "Aniket", 700000],
+#         [4, "Abhishek", 500000]
+#     ])
+
+# with open("emp.csv", "r") as file:
+#     reader = csv.reader(file)
+#     next(reader)
+#     next(reader)
+#     for row in reader:
+#         print(row)
+
+with open("image.jpg","rb") as file:
+    for line in file:
+        print(line)
+        break;
+
+
+"""
+[ 
+ ["column_data1","column_data2",...],
+ ["column_data1","column_data2",...]
+]
+"""
+
+
+# with open("student.csv", "w") as csv_file:
+#     csv_file.write("Roll No,Name,Marks,Department\n")
+#     csv_file.write("1,Ayush,58,CSE\n")
